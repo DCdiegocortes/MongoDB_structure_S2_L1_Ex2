@@ -1,0 +1,40 @@
+[{
+  "_id": {
+    "$oid": "6a12f042b8fa8b2edd05ca5d"
+  },
+  "marca": "Gentle Monster",
+  "montura": {
+    "tipo": "Acrilico"
+  },
+  "precio": 127,
+  "proveedor": {
+    "nombre": "ProveedorGroove",
+    "telefono": "912345678",
+    "fax": "912345679",
+    "nif": "A12345678",
+    "direccion": {
+      "calle": "Av.Rua Agusta",
+      "numero": 23,
+      "ciudad": "Lisboa",
+      "codigo_postal": "45633",
+      "pais": "Portugal"
+    }
+  },
+  "comprado_por": [
+    {
+      "nombre": "Lulu",
+      "telefono": "678921235",
+      "email": "email@email.com"
+    },
+    {
+      "nombre": "Cliente 2",
+      "telefono": "611223344",
+      "email": "cliente2@email.com"
+    },
+    {
+      "nombre": "Cliente 3",
+      "telefono": "622334455",
+      "email": "cliente3@email.com"
+    }
+  ]
+}]
