@@ -1,40 +1,95 @@
-[{
-  "_id": {
-    "$oid": "6a12f042b8fa8b2edd05ca5d"
-  },
-  "marca": "Gentle Monster",
-  "montura": {
-    "tipo": "Acrilico"
-  },
-  "precio": 127,
-  "proveedor": {
-    "nombre": "ProveedorGroove",
-    "telefono": "912345678",
-    "fax": "912345679",
-    "nif": "A12345678",
-    "direccion": {
-      "calle": "Av.Rua Agusta",
-      "numero": 23,
-      "ciudad": "Lisboa",
-      "codigo_postal": "45633",
-      "pais": "Portugal"
-    }
-  },
-  "comprado_por": [
-    {
-      "nombre": "Lulu",
-      "telefono": "678921235",
-      "email": "email@email.com"
+[
+  {
+    "_id": {
+      "$oid": "6a12f042b8fa8b2edd05ca5d"
     },
-    {
-      "nombre": "Cliente 2",
-      "telefono": "611223344",
-      "email": "cliente2@email.com"
+    "marca": "Google",
+    "modelo": "GG-2024-01",
+    "montura": {
+      "tipo": "metalica",
+      "color": "negro"
     },
-    {
-      "nombre": "Cliente 3",
-      "telefono": "622334455",
-      "email": "cliente3@email.com"
-    }
-  ]
-}]
+    "precio": 105.75,
+    "proveedor": {
+      "_id": {
+        "$oid": "6a0d98a8a30f87e816098799"
+      },
+      "nombre": "Googles Associated SL",
+      "nif": "B87654321"
+    },
+    "comprado_por": [
+      {
+        "cliente": {
+          "_id": {
+            "$oid": "6a0d98a8a30f87e816098740"
+          },
+          "nombre": "Lulu"
+        },
+        "empleado": {
+          "_id": {
+            "$oid": "6a0d98a8a30f87e8160987e1"
+          },
+          "nombre": "Robert"
+        },
+        "fecha_venta": "2024-01-10T17:30:00Z",
+        "precio_venta": 105.75,
+        "graduacion": {
+          "izq": 2.3,
+          "der": 2.0
+        },
+        "cristales": {
+          "izq": "transparente",
+          "der": "transparente"
+        }
+      },
+      {
+        "cliente": {
+          "_id": {
+            "$oid": "6a0d98a8a30f87e816098741"
+          },
+          "nombre": "Marta Puig"
+        },
+        "empleado": {
+          "_id": {
+            "$oid": "6a0d98a8a30f87e8160987e1"
+          },
+          "nombre": "Robert"
+        },
+        "fecha_venta": "2024-02-03T11:05:00Z",
+        "precio_venta": 105.75,
+        "graduacion": {
+          "izq": 1.0,
+          "der": 1.25
+        },
+        "cristales": {
+          "izq": "ahumado",
+          "der": "ahumado"
+        }
+      },
+      {
+        "cliente": {
+          "_id": {
+            "$oid": "6a0d98a8a30f87e816098742"
+          },
+          "nombre": "Joan Ferrer"
+        },
+        "empleado": {
+          "_id": {
+            "$oid": "6a0d98a8a30f87e8160987e2"
+          },
+          "nombre": "Nuria"
+        },
+        "fecha_venta": "2024-02-28T19:15:00Z",
+        "precio_venta": 95.0,
+        "graduacion": {
+          "izq": 0.75,
+          "der": 0.75
+        },
+        "cristales": {
+          "izq": "verde",
+          "der": "verde"
+        }
+      }
+    ]
+  }
+]
